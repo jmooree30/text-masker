@@ -9,7 +9,7 @@
 $ git clone https://github.com/jmooree30/text-masker.git
 ```
 
-Add a .env file in the server directory and add the MONGO_URI
+Add a .env file in the server directory and add the MONGO_URI & SECRET_KEY
 
 ```
 $ cd document-masker
