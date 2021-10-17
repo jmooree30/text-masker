@@ -5,9 +5,11 @@ const api = axios.create({
 })
 
 export const insertDocument = payload => api.post(`/document`, payload)
+export const maskDocument = payload => api.post(`/maskDocument`, payload)
 
 const apis = {
-    insertDocument
+    insertDocument,
+    maskDocument
 }
 
 export default apis

@@ -6,4 +6,6 @@ const router = express.Router()
 
 router.post('/document', DocumentCtrl.saveDocument)
 
+router.post('/maskDocument', DocumentCtrl.maskDocument)
+
 module.exports = router
